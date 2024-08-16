@@ -1,7 +1,22 @@
-# Cluster-Analysis
-This repository focuses on cluster analysis and includes:
+# Cluster Analysis
 
-1. Performing Cluster Analysis: Using hierarchical clustering and k-means (or other methods) on a selected dataset with multiple features. Data transformation is applied if needed. At least two clustering methods are used and compared (e.g., centroid-based and nearest neighbor), with Euclidean distance for quantitative data and appropriate methods for nominal data.
-2. Selecting Optimal Number of Clusters: Generating visualizations to optimize different metrics for varying numbers of clusters and justifying the chosen number.
-3. Visualizing Clustering Results: For two or three selected clustering solutions, visualizing the results, potentially using principal component analysis.
-4. Comparing Clustering Solutions: Evaluating the selected clustering solutions using the Rand index.
+This repository focuses on cluster analysis and includes the following components:
+
+## Performing Cluster Analysis
+
+- **Clustering Methods**: Applies hierarchical clustering and k-means (or other methods) on a selected dataset with multiple features. Includes data transformation if needed.
+- **Comparison**: Uses at least two clustering methods (e.g., centroid-based and nearest neighbor) and compares them. Utilizes Euclidean distance for quantitative data and appropriate methods for nominal data.
+
+## Selecting Optimal Number of Clusters
+
+- **Optimization**: Generates visualizations to optimize different metrics for varying numbers of clusters. Justifies the chosen number of clusters based on these metrics.
+
+## Visualizing Clustering Results
+
+- **Visualization**: Visualizes results for two or three selected clustering solutions. Potentially uses principal component analysis (PCA) for dimensionality reduction and better visualization.
+
+## Comparing Clustering Solutions
+
+- **Evaluation**: Compares the selected clustering solutions using the Rand index to assess the similarity between different clustering results.
+
+
